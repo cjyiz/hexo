@@ -1,6 +1,6 @@
 ---
 title: ES6加载
-date: 2019-11-12 16:30:43
+date: 2018-11-12 16:30:43
 tags: ES6
 categories: Javacsript
 ---
