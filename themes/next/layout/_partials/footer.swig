@@ -68,5 +68,8 @@
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ theme.add_this_id }}" async="async"></script>
   </div>
 {%- endif %}
-
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">全站共{{ totalcount(site) }}字</span>
+</div>
 {{- next_inject('footer') }}

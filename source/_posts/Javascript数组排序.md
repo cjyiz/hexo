@@ -1,0 +1,51 @@
+---
+title: Javascript数组排序
+date: 2019-3-19 15:27:38
+tags: 算法
+categories: Javascript
+---
+## `sort()`法
+```
+arr.sort(function(a,b){
+  return b-a
+})
+```
+
+## 冒泡排序
+```
+function bubbleSort(arr){
+  let len=array.length
+  let temp
+  for(let i=0;i<len-1;i++){
+    for(let j=len1;j>=i;j--){
+      if(array[i]<array[j-1]){
+        temp=array[j]
+        array[j]=array[j-1]
+        array[j-1]=temp
+      }
+    }
+  }
+  return array
+}
+```
+
+## 快速排序
+```
+function quickSort(arr){
+  if(arr.length<=1){
+    return arr
+  }
+  let pivotIndex=Math.floor(arr.length/2)
+  let pivot=arr.splice(pivotIndex,1)[0]
+  var left=[]
+  var right=[]
+  for(var i=0;i<arr.length;i++){
+    if(arr[i]<pivot){
+      left.push(arr[i])
+    }else{
+      right.push(arr[i])
+    }
+    return quickSort(left).concat([pivot],quickSokt(right))
+  }
+}
+```

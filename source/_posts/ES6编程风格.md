@@ -2,7 +2,7 @@
 title: ES6编程风格
 date: 2019-06-8 09:32:39
 tags: ES6
-categories: Javacsript
+categories: Javascript
 ---
 # 一.块级作用域
 ### 合理使用const和let取代var

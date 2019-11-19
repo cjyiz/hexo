@@ -2,7 +2,7 @@
 title: ES6加载
 date: 2018-11-12 16:30:43
 tags: ES6
-categories: Javacsript
+categories: Javascript
 ---
 # 浏览器加载
 默认情况下，浏览器时同步加载JS脚本，即渲染器遇到`<script>`标签就会停下来，等执行完脚本，再继续向下渲染。如果是外部脚本，还必须加入脚本下载时间。

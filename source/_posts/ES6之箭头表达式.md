@@ -2,6 +2,7 @@
 title: ES6之箭头表达式
 date: 2018-11-08 16:05:27
 tags: ES6
+categories: Javascript
 ---
 
 ### 基本用法

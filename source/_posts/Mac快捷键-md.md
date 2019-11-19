@@ -1,7 +1,8 @@
 ---
 title: Mac前端常用快捷键
 date: 2018-11-06 18:05:48
-tags: Mac 
+tags: Mac
+categories: 效率提升
 ---
 ## Mac基础操作
    在Mac中，Command键很关键。Windows系统下有ctrl参与的快捷键，在Mac中基本上可以由Command（CMD)替代。

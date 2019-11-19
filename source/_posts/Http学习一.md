@@ -2,6 +2,7 @@
 title: http学习记录
 date: 2018-10-13 
 tags: http
+categories: 网络服务
 ---
 # 一、HTTP简介
   HTTP是一种详细规定了浏览器和万维网服务器之间通信规则，通过因特网传送万维网文档的数据传输协议。全名叫***超文本传输协议（Hypertext transfer protocol）***。

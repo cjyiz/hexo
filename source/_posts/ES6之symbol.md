@@ -2,7 +2,7 @@
 title: ES6之symbol
 date: 2018-11-18 11:39:00
 tags: ES6
-categories: Javacsript
+categories: Javascript
 ---
 # 一.symbol的作用
 因为对象添加新的方法，新方法名字可能与现有方法产生冲突，因此引入symbol。
