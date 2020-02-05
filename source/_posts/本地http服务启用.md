@@ -5,8 +5,8 @@ tags: html5，协议，iconfont
 categories: 网络服务
 ---
 ***导语：***
-   我们直接打开html本地文件，是以file协议打开。但是有时候file协议并不能满足一些开发需求。比如以symbol方式引入的iconfront图标，在file协议下，并不能正常显示。这种时候可以使用http本地服务打开html文件进行开发。
-
+   我们直接打开html本地文件，是以file协议打开。但是有时候file协议并不能满足一些开发需求。比如以symbol方式引入的iconfront图标，在file协议下，并不能正常显示。这种时候可以使用http本地服务打开html文件进行开发。<!-- more -->
+   
 ----
   简单做个例子，用symbol方式引用iconfront图标，代码如下图：
 ![源代码](/本地http服务启用/5.png)

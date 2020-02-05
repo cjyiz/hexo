@@ -5,7 +5,7 @@ tags: ES6
 categories: Javascript
 ---
 # 一.symbol的作用
-因为对象添加新的方法，新方法名字可能与现有方法产生冲突，因此引入symbol。
+因为对象添加新的方法，新方法名字可能与现有方法产生冲突，因此引入symbol。<!-- more -->
 
 # 二.symbol注意点
 1. symbol值是通过Symbol函数生成，但是Symbol函数不能使用new命令。因为生成的Symbol是一个原始类型的值，不是对象。

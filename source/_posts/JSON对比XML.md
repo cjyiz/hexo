@@ -4,7 +4,7 @@ date: 2019-11-19 16:03:26
 tags: JSON,XML
 categories: 网络服务
 ---
-***前言：***在目前web开发领域，主要数据交换格式有XML和JSON，AJAX中的X就是指的XML，其是在JSON出现之前web传输数据的主要格式就是XML。
+***前言：***在目前web开发领域，主要数据交换格式有XML和JSON，AJAX中的X就是指的XML，其是在JSON出现之前web传输数据的主要格式就是XML。<!-- more -->
 
 ### XML
 是一种类似于HTML的语言，他没有预先定义的标签，使用文档类型定义来组织数据。格式统一，是跨平台的语言。

@@ -5,7 +5,7 @@ tags: npm
 categories: 工程化
 ---
 ## 前言
-安装新项目时，经常遇到`package.json`中的依赖版本过低导致项目无法启动的状况。因此我们可以使用`npm-check-updates`插件来进行更新依赖。
+安装新项目时，经常遇到`package.json`中的依赖版本过低导致项目无法启动的状况。因此我们可以使用`npm-check-updates`插件来进行更新依赖。<!-- more -->
 ## 使用方法
 ```
 <!-- 安装插件 -->

@@ -6,7 +6,7 @@ categories: Javascript
 ---
 ## 概述
 在 ES6 之前，社区制定了一些模块加载方案，最主要的有 CommonJS 和 AMD 两种。前者用于服务器，后者用于浏览器。
-ES6模块设计思路是尽量静态化，这样在编译时就能确定模块的依赖关系，以及输入输出的变量。
+ES6模块设计思路是尽量静态化，这样在编译时就能确定模块的依赖关系，以及输入输出的变量。<!-- more -->
 ### CommonJS模块
 ```
 let {stat,exists,readFile}=require('fs')

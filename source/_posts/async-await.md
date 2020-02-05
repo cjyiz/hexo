@@ -5,7 +5,7 @@ tags: ES6
 categories: Javascript
 ---
 ### async简介
-`async`英文的意思是异步，是ES2017标准引入的新函数，使得异步操作更加方便。简单说也是Generator语法糖。
+`async`英文的意思是异步，是ES2017标准引入的新函数，使得异步操作更加方便。简单说也是Generator语法糖。<!-- more -->
 ```
 var gen=function* (){
   let f1=yield readFile('/etc/a')
