@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new实现原理</title>
+</head>
+
+<body>
+  <div></div>
+</body>
+<script>
+  function cjNew(obj, args) {
+    // 创建一个空对象
+    let newObj = {}
+    //将新对象的_prototype_链接到构造函数的prototype上
+    newObj._prototype_ = obj.prototype
+    // 绑定this到新的对象身上
+    obj.call(newObj, args)
+    // 返回新对象
+    return newObj
+  }
+  function EventBusClass() {
+    this.msgQueues = {}
+  }
+
+</script>
+
+</html>

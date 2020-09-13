@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>函数柯里化</title>
+</head>
+
+<body>
+  <div>
+    函数柯里化
+  </div>
+</body>
+<script>
+  function curry(fn, ...args) {
+    return function () {
+      args = [...args, ...arguments]
+      if (args.length < fn.length) {
+        return curry(fn, ...args)
+      } else {
+        return fn.apply(null, args)
+      }
+    }
+  }
+  function cc(a, b, c) {
+    return a + b + c
+  }
+  let a = curry(cc)
+
+  console.log(a(8)(6, 3))
+</script>
+
+</html>

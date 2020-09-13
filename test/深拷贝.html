@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>深拷贝</div>
+</body>
+<script>
+  const obj1 = {
+    name: 'cj',
+    age: 123,
+    cc: {
+      name: '123',
+      sd: 'sd'
+    },
+    dd: {
+      sd: [123, 256],
+      age: 'asd速度'
+    }
+  }
+  // Array
+  function clone(obj) {
+    if (typeof obj === 'object') {
+      let result = {}
+      let key = Symbol()
+      for (key in obj) {
+        result[key] = clone(obj[key])
+      }
+      return result
+    } else {
+      return obj
+    }
+  }
+  let obj2 = clone(obj1)
+  obj2.dd.sd = [123]
+  console.log(obj1)
+  console.log(obj2)
+</script>
+
+</html>
